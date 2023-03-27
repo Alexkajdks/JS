@@ -37,3 +37,17 @@ divAlert3.innerHTML += "<ol> <li>" + fila3[0] + "</li>"
 +"<li>" + fila3[5] + "</li> </ol>"
 let strfila3 = fila3.join(", ")
 console.log(strfila3);
+
+console.log("*****forma2(solo una variable)*****");
+let fila0 = ["Sofia", "David", "Juan"];
+console.log("parte 1");
+console.log(fila0);
+fila0.push ("Sara");
+fila0.push ("Agustin");
+fila0.shift();
+console.log("parte 2");
+console.log(fila0);
+fila0.splice(1,0, "Renata");
+fila0.push("Elena");
+console.log("parte 3");
+console.log(fila0);
