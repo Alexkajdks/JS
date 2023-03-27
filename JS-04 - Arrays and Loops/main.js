@@ -51,3 +51,8 @@ fila0.splice(1,0, "Renata");
 fila0.push("Elena");
 console.log("parte 3");
 console.log(fila0);
+
+console.log("Termina ejercicio 1");
+console.log("Empieza ejercicio 2");
+let divAlert4 = document.getElementById("divAlert4");
+divAlert4.innerHTML = "Termina ejercicio 1/ Empieza ejercicio 2";
