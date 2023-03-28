@@ -56,3 +56,13 @@ console.log("Termina ejercicio 1");
 console.log("Empieza ejercicio 2");
 let divAlert4 = document.getElementById("divAlert4");
 divAlert4.innerHTML = "Termina ejercicio 1/ Empieza ejercicio 2";
+
+
+let i, repeticion;
+for(i=1; i<=5; i++){
+    for(repeticion = 0; repeticion<i; repeticion++){
+ document.write(i)
+    }
+    document.write("<br>");
+}
+
